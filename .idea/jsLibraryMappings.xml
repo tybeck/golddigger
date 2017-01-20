@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="file://$PROJECT_DIR$" libraries="{golddigger/node_modules}" />
+    <file url="file://$PROJECT_DIR$/platforms/android/build/intermediates/assets/F0/debug/app/tns_modules/nativescript-angular" libraries="{golddigger/platforms/android/build/intermediates/assets/F0/debug/app/tns_modules/nativescript-angular/node_modules}" />
+    <file url="file://$PROJECT_DIR$/platforms/android/build/intermediates/assets/F0/debug/app/tns_modules/rxjs" libraries="{golddigger/platforms/android/build/intermediates/assets/F0/debug/app/tns_modules/rxjs/node_modules}" />
+    <file url="file://$PROJECT_DIR$/platforms/android/src/main/assets/app/tns_modules/nativescript-angular" libraries="{golddigger/platforms/android/src/main/assets/app/tns_modules/nativescript-angular/node_modules}" />
+    <file url="file://$PROJECT_DIR$/platforms/android/src/main/assets/app/tns_modules/rxjs" libraries="{golddigger/platforms/android/src/main/assets/app/tns_modules/rxjs/node_modules}" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+'use strict';
+var router_1 = require('nativescript-angular/router');
+var dashboard_component_1 = require('./components/pages/dashboard.component');
+var appRoutes = [
+    {
+        'path': '',
+        'redirectTo': '/dashboard',
+        'pathMatch': 'full'
+    },
+    {
+        'path': 'dashboard',
+        'component': dashboard_component_1.DashboardComponent
+    }
+];
+exports.ROUTING = router_1.NativeScriptRouterModule
+    .forRoot(appRoutes);
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLnJvdXRlcy5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbImFwcC5yb3V0ZXMudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUEsWUFBWSxDQUFDO0FBRWIsdUJBRU8sNkJBQTZCLENBQUMsQ0FBQTtBQU1yQyxvQ0FBbUMsd0NBQXdDLENBQUMsQ0FBQTtBQUU1RSxJQUFJLFNBQVMsR0FBbUI7SUFFOUI7UUFFRSxNQUFNLEVBQUUsRUFBRTtRQUVWLFlBQVksRUFBRSxZQUFZO1FBRTFCLFdBQVcsRUFBRSxNQUFNO0tBRXBCO0lBRUQ7UUFFRSxNQUFNLEVBQUUsV0FBVztRQUVuQixXQUFXLEVBQUUsd0NBQWtCO0tBRWhDO0NBRUYsQ0FBQztBQUVXLGVBQU8sR0FBRyxpQ0FBd0I7S0FDNUMsT0FBTyxDQUNOLFNBQVMsQ0FDVixDQUFDIiwic291cmNlc0NvbnRlbnQiOlsiJ3VzZSBzdHJpY3QnO1xyXG5cclxuaW1wb3J0IHtcclxuICBOYXRpdmVTY3JpcHRSb3V0ZXJNb2R1bGVcclxufSBmcm9tICduYXRpdmVzY3JpcHQtYW5ndWxhci9yb3V0ZXInO1xyXG5cclxuaW1wb3J0IHtcclxuICBSb3V0ZXMsXHJcbn0gZnJvbSAnQGFuZ3VsYXIvcm91dGVyJztcclxuXHJcbmltcG9ydCB7IERhc2hib2FyZENvbXBvbmVudCB9IGZyb20gJy4vY29tcG9uZW50cy9wYWdlcy9kYXNoYm9hcmQuY29tcG9uZW50JztcclxuXHJcbmxldCBhcHBSb3V0ZXM6IFJvdXRlcyA9IDxSb3V0ZXM+W1xyXG5cclxuICB7XHJcblxyXG4gICAgJ3BhdGgnOiAnJyxcclxuXHJcbiAgICAncmVkaXJlY3RUbyc6ICcvZGFzaGJvYXJkJyxcclxuXHJcbiAgICAncGF0aE1hdGNoJzogJ2Z1bGwnXHJcblxyXG4gIH0sXHJcblxyXG4gIHtcclxuXHJcbiAgICAncGF0aCc6ICdkYXNoYm9hcmQnLFxyXG5cclxuICAgICdjb21wb25lbnQnOiBEYXNoYm9hcmRDb21wb25lbnRcclxuXHJcbiAgfVxyXG5cclxuXTtcclxuXHJcbmV4cG9ydCBjb25zdCBST1VUSU5HID0gTmF0aXZlU2NyaXB0Um91dGVyTW9kdWxlXHJcbiAgLmZvclJvb3QoXHJcbiAgICBhcHBSb3V0ZXNcclxuICApOyJdfQ==
