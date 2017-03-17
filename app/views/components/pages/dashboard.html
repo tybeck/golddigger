@@ -1,0 +1,14 @@
+
+<StackLayout orientation="horizontal" horizontalAlignment="left" verticalAlignment="top" margin="50">
+  <GridLayout columns="2*,2*,1*,2*,2*" rows="2*,2*,1*,2*,2*">
+    <!--  Order-->
+    <Label class="fa icon" [text]="'fa-cutlery' | fonticon" row="0" col="0" colSpan="2" rowSpan="2"></Label>
+    <Button class="button" [nsRouterLink]="['/order']" text="ORDER" row="0" col="0" colSpan="2" rowSpan="2"></Button>
+    <!-- History-->
+    <Label class="fa icon history" [text]="'fa-history' | fonticon" row="0" col="3" colSpan="2" rowSpan="2"></Label>
+    <Button class="button" [nsRouterLink]="['/history']" text="HISTORY" colSpan="2" rowSpan="2" row="0" col="3"></Button>
+    <!-- Control-->
+    <Label class="fa icon control" [text]="'fa-shield' | fonticon" row="3" col="0" colSpan="2" rowSpan="2"></Label>
+    <Button class="button" [nsRouterLink]="['/control']" text="CONTROL" row="3" col="0" colSpan="2" rowSpan="2"></Button>
+  </GridLayout>
+</StackLayout>

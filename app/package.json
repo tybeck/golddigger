@@ -4,11 +4,11 @@
         "id": "com.hoagiesonmain.golddigger"
     },
     "name": "golddigger",
-    "main": "src/scripts/main.js",
+    "main": "main.js",
     "version": "1.0.0",
-    "author": "Tyler Beck",
+    "author": "Telerik <support@telerik.com>",
     "description": "Golddigger - Register / Analytics System",
-    "license": "BSD",
+    "license": "MIT",
     "keywords": [
         "analytics",
         "register",

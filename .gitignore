@@ -2,3 +2,7 @@ hooks
 platforms
 app/**/*.css
 node_modules
+.sass-cache
+.tscache
+tscommand*
+.baseDir*

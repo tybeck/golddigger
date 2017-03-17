@@ -1,0 +1,67 @@
+StackLayout(
+  orientation="horizontal",
+  horizontalAlignment="left",
+  verticalAlignment="top",
+  margin="50"
+)
+  GridLayout(
+    columns="2*,2*,1*,2*,2*",
+    rows="2*,2*,1*,2*,2*"
+  )
+    //  Order
+    Label(
+      class="fa",
+      [text]="'fa-cutlery' | fonticon",
+      row="0",
+      col="0",
+      colSpan="2",
+      rowSpan="2",
+      class="icon"
+    )
+    Button(
+      [nsRouterLink]="['/order']",
+      class="button",
+      text="ORDER",
+      row="0",
+      col="0",
+      colSpan="2",
+      rowSpan="2"
+    )
+    // History
+    Label(
+      class="fa",
+      [text]="'fa-history' | fonticon",
+      row="0",
+      col="3",
+      colSpan="2",
+      rowSpan="2",
+      class="icon history"
+    )
+    Button(
+      [nsRouterLink]="['/history']",
+      class="button",
+      text="HISTORY",
+      colSpan="2",
+      rowSpan="2",
+      row="0",
+      col="3"
+    )
+    // Control
+    Label(
+      class="fa",
+      [text]="'fa-shield' | fonticon",
+      row="3",
+      col="0",
+      colSpan="2",
+      rowSpan="2",
+      class="icon control"
+    )
+    Button(
+      [nsRouterLink]="['/control']",
+      class="button",
+      text="CONTROL",
+      row="3",
+      col="0",
+      colSpan="2",
+      rowSpan="2"
+    )
